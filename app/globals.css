@@ -260,8 +260,8 @@ body.notes .toggle-notes{background:#e0a800;color:#fff;border-color:#e0a800}
   .tag.nuevo{right:8px}
   .filtros{flex-direction:column;align-items:stretch}
   .filtros>*{min-width:0;max-width:100%}
-  .chips{flex-wrap:nowrap;overflow-x:auto;margin:0 -16px;padding:0 16px 4px;scrollbar-width:none}
-  .chips button{flex:none}
+  .chips{flex-wrap:wrap;gap:6px}
+  .chips button{padding:8px 12px;font-size:12.5px;letter-spacing:.06em}
   .filtros-der{width:100%}
   .filtros-der select{flex:1;min-width:0}
   .buscar{flex:1;min-width:0}
